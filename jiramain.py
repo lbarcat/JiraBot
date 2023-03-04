@@ -52,6 +52,9 @@ def check_all_messages(message):
     response(long.R_INTROJIRA1, ['jira', 'o que', 'e'], required_words=['o que', 'e', 'jira'])
     response(long.R_INTROJIRA2, ['configurar', 'jira', 'Jira', 'como'], required_words=['configurar'])
     response(long.R_INTROJIRA3, ['novo', 'projeto', 'jira'], required_words=['novo', 'projeto'])
+    response(long.R_INTROJIRA4, ['quais', 'principais', 'funcionalidades'], required_words=['principais', 'funcionalidades'])
+
+
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
