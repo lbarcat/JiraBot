@@ -6,7 +6,11 @@ A função "get_response" é usada para obter uma resposta do chatbot e chama am
 
 import re
 import long_responses as long
+import os
+import pwd
 
+username = pwd.getpwuid(os.getuid()).pw_name
+print("Ola", username, "!", "Seja bem vindo ao JiraBot!")
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
