@@ -76,4 +76,4 @@ def get_response(user_input):
 
 # Testando o sistema de resposta
 while True:
-    print('JiraBot: ' + get_response(input('You: ')))
+    print('JiraBot: ' + get_response(input(username)))
