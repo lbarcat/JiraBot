@@ -7,7 +7,7 @@ Projeto de chat bot para ajudar os usuários do Jira com perguntas frequentes de
 
 ## 🚀 Começando
 
-Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot apos o **"Voce:"**.
+Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot apos o **"Nome-usuário"**.
 
 ### 📋 Pré-requisitos
 
