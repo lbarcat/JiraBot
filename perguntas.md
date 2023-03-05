@@ -12,3 +12,52 @@
 - 9 - Quais são os principais plugins para o Jira Software? ✅ 
 - 10 - Como integrar outras ferramentas com o Jira Software? 
 - 11 - Quais são os principais recursos de segurança do Jira Software?
+- 12 - Qual é a finalidade do Jira Software?
+- 13 - Como o Jira Software pode ser útil para minha equipe?
+- 14 - Quais são os recursos do Jira Software?
+- 15 - Quais são as diferenças entre o Jira Software e outras ferramentas de gerenciamento de projetos?
+- 16 - Qual é o custo do Jira Software?
+- 17 - Quais são as opções de integração do Jira Software?
+- 18 - Como instalar e configurar o Jira Software?
+- 19 - Como posso importar dados para o Jira Software?
+- 20 - Como faço para exportar dados do Jira Software?
+- 21 - O Jira Software tem uma API?
+- 22 - Como personalizar o Jira Software para minha equipe?
+- 23 - Como criar projetos no Jira Software?
+- 24 - Como criar tarefas no Jira Software?
+- 25 - Como atribuir tarefas no Jira Software?
+- 26 - Como definir prazos no Jira Software?
+- 27 - Como rastrear o progresso do projeto no Jira Software?
+- 28 - Como gerenciar equipes no Jira Software?
+- 29 - Como definir papéis e permissões no Jira Software?
+- 30 - Como criar workflows no Jira Software?
+- 31 - Como personalizar workflows no Jira Software?
+- 32 - Como configurar fluxos de trabalho no Jira Software?
+- 33 - Como configurar campos personalizados no Jira Software?
+- 34 - Como configurar telas no Jira Software?
+- 35 - Como configurar notificações no Jira Software?
+- 36 - Como definir prioridades no Jira Software?
+- 37 - Como gerenciar sprints no Jira Software?
+- 38 - Como configurar relatórios no Jira Software?
+- 39 - Como usar painéis no Jira Software?
+- 40 - Como usar filtros no Jira Software?
+- 41 - Como usar o painel de controle do Jira Software?
+- 42 - Como configurar integrações com outras ferramentas no Jira Software?
+- 43 - Como usar o Jira Software com o GitHub?
+- 44 - Como usar o Jira Software com o Bitbucket?
+- 45 - Como usar o Jira Software com o Confluence?
+- 46 - Como usar o Jira Software com o Slack?
+- 47 - Como usar o Jira Software com o Trello?
+- 48 - Como usar o Jira Software com o Google Sheets?
+- 49 - Como usar o Jira Software com o Salesforce?
+- 50 - Como usar o Jira Software com o Zendesk?
+- 51 - Como usar o Jira Software com o Microsoft Teams?
+- 52 - Como usar o Jira Software com o Power BI?
+- 53 - Como usar o Jira Software com o Zapier?
+- 54 - Como usar o Jira Software com o Microsoft Project?
+- 55 - Como usar o Jira Software com o Asana?
+- 56 - Como usar o Jira Software com o Monday.com?
+- 57 - Como usar o Jira Software com o GitLab?
+- 58 - Como usar o Jira Software com o Jenkins?
+- 59 - Como usar o Jira Software com o Bamboo?
+- 60 - Como usar o Jira Software com o Docker?
