@@ -10,9 +10,9 @@
 - 7 - Quais são as melhores práticas para usar o Jira Software? ✅
 - 8 - Como personalizar o layout do Jira Software? ✅
 - 9 - Quais são os principais plugins para o Jira Software? ✅ 
-- 10 - Como integrar outras ferramentas com o Jira Software? 
-- 11 - Quais são os principais recursos de segurança do Jira Software?
-- 12 - Qual é a finalidade do Jira Software?
+- 10 - Como integrar outras ferramentas com o Jira Software? ✅ 
+- 11 - Quais são os principais recursos de segurança do Jira Software? ✅ 
+- 12 - Qual é a finalidade do Jira Software? ✅
 - 13 - Como o Jira Software pode ser útil para minha equipe?
 - 14 - Quais são os recursos do Jira Software?
 - 15 - Quais são as diferenças entre o Jira Software e outras ferramentas de gerenciamento de projetos?
