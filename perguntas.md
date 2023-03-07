@@ -13,8 +13,8 @@
 - 10 - Como integrar outras ferramentas com o Jira Software? ✅ 
 - 11 - Quais são os principais recursos de segurança do Jira Software? ✅ 
 - 12 - Qual é a finalidade do Jira Software? ✅
-- 13 - Como o Jira Software pode ser útil para minha equipe?
-- 14 - Quais são os recursos do Jira Software?
+- 13 - Como o Jira Software pode ser útil para minha equipe? ✅
+- 14 - Quais são os recursos do Jira Software? ✅
 - 15 - Quais são as diferenças entre o Jira Software e outras ferramentas de gerenciamento de projetos?
 - 16 - Qual é o custo do Jira Software?
 - 17 - Quais são as opções de integração do Jira Software?
