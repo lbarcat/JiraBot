@@ -16,10 +16,10 @@
 - 13 - Como o Jira Software pode ser útil para minha equipe? ✅
 - 14 - Quais são os recursos do Jira Software? ✅
 - 15 - Quais são as diferenças entre o Jira Software e outras ferramentas de gerenciamento de projetos? ✅
-- 16 - Qual é o custo do Jira Software?
-- 17 - Quais são as opções de integração do Jira Software?
-- 18 - Como instalar e configurar o Jira Software?
-- 19 - Como posso importar dados para o Jira Software?
+- 16 - Qual é o custo do Jira Software? ✅
+- 17 - Quais são as opções de integração do Jira Software? ✅
+- 18 - Como instalar e configurar o Jira Software? ✅
+- 19 - Como posso importar dados para o Jira Software? 
 - 20 - Como faço para exportar dados do Jira Software?
 - 21 - O Jira Software tem uma API?
 - 22 - Como personalizar o Jira Software para minha equipe?
