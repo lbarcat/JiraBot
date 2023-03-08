@@ -8,6 +8,7 @@ import re
 import long_responses as long
 import os
 import pwd
+import io
 
 username = pwd.getpwuid(os.getuid()).pw_name.capitalize() + ": "
 print("Ola \033[1;31m", username, "\033[0;0m!", "Seja bem vindo ao JiraBot!")
@@ -92,8 +93,9 @@ def check_all_messages(message):
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
     response = check_all_messages(split_message)
+    with io.open("perguntas_novas.txt", "a", encoding="utf-8") as f: #cria o arquivo para armazenar as pergunta feitas pelo usuário
+        f.write(user_input + "\n")  # adiciona uma nova linha depois de cada entrada
     return response
-
 
 # Testando o sistema de resposta
 while True:
