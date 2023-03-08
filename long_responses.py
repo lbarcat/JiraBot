@@ -24,8 +24,9 @@ R_INTROJIRA21 = "Sim, o Jira Software possui uma API RESTful que permite aos des
 
 def unknown():
     response = ["Eu nao entendi, poderia tentar novamente?",
-                "Hum, nao encontrei essa informacao",
-                "Preciso verificar!",
+                "Hum, nao encontrei essa informacao!",
+                "Preciso verificar! Nos envie um e-mail com a sua pergunta para: lcbarcat@gmail.com",
+                "Sou programado apenas para responder perguntas relacionadas ao Jira, caso sua pergunta seja sobre o jira e não foi respondida, envie um email para: lcbarcat@gmail.com",
                 ][
         random.randrange(4)]
     return response
