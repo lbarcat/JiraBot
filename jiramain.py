@@ -76,6 +76,11 @@ def check_all_messages(message):
     response(long.R_INTROJIRA20, ['exportar', 'dados', 'para', 'jira'], required_words=['exportar', 'dados'])
     response(long.R_INTROJIRA21, ['api', 'jira', 'tem'], required_words=['api', 'jira'])
 
+
+    #Local para perguntas mais longas desenvolvidas por pessoas
+    #-
+    #-
+
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
     # print(f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')
