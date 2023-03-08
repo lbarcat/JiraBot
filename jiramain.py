@@ -9,7 +9,7 @@ import long_responses as long
 import os
 import pwd
 
-username = pwd.getpwuid(os.getuid()).pw_name + ": "
+username = pwd.getpwuid(os.getuid()).pw_name.capitalize() + ": "
 print("Ola \033[1;31m", username, "\033[0;0m!", "Seja bem vindo ao JiraBot!")
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
