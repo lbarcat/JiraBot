@@ -19,9 +19,9 @@
 - 16 - Qual é o custo do Jira Software? ✅
 - 17 - Quais são as opções de integração do Jira Software? ✅
 - 18 - Como instalar e configurar o Jira Software? ✅
-- 19 - Como posso importar dados para o Jira Software? 
-- 20 - Como faço para exportar dados do Jira Software?
-- 21 - O Jira Software tem uma API?
+- 19 - Como posso importar dados para o Jira Software? ✅
+- 20 - Como faço para exportar dados do Jira Software? ✅
+- 21 - O Jira Software tem uma API? ✅
 - 22 - Como personalizar o Jira Software para minha equipe?
 - 23 - Como criar projetos no Jira Software?
 - 24 - Como criar tarefas no Jira Software?

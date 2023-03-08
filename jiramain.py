@@ -72,6 +72,9 @@ def check_all_messages(message):
     response(long.R_INTROJIRA16, ['custo', 'jira', 'software'], required_words=['custo', 'jira'])
     response(long.R_INTROJIRA17, ['opcoes', 'integracao', 'jira', 'software'], required_words=['opcoes', 'integracao'])
     response(long.R_INTROJIRA18, ['instalar', 'configurar', 'jira'], required_words=['instalar', 'configurar'])
+    response(long.R_INTROJIRA19, ['importar', 'dados', 'para', 'jira'], required_words=['importar', 'dados'])
+    response(long.R_INTROJIRA20, ['exportar', 'dados', 'para', 'jira'], required_words=['exportar', 'dados'])
+    response(long.R_INTROJIRA21, ['api', 'jira', 'tem'], required_words=['api', 'jira'])
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
