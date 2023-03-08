@@ -53,6 +53,7 @@ def check_all_messages(message):
     response('Por nada!', ['obrigado', 'muito obrigado'], single_response=True)
     response('Otimo! Vamos la! O que posso ajudar?', ['estou', 'bem'], required_words=['estou'])
     response('Posso sim! Insira a pergunta que eu vou te ajudar!', ['pode', 'ajudar', 'duvida'], required_words=['pode','ajudar'])
+    response('Tudo bem! Insira a pergunta que eu vou armazena-la e aprende-la!', ['tentar', 'novamente', 'perguntar'], required_words=['tentar','perguntar'])
 
     # Respostas mais longas
     response(long.R_INTROJIRA1, ['jira', 'que', 'e'], required_words=['que', 'e', 'jira'])
