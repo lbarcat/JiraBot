@@ -49,7 +49,7 @@ def check_all_messages(message):
 
     #respostas -------------------------------------------------------------------------------------------------------
     response('Ola! Bem Vindo ao JiraBot', ['ola', 'Oi', 'Oii', 'oi', 'hey', 'Oie','Bom', 'Boa', 'bom', 'boa', 'Dia','dia','Tarde','tarde','noite','Noite'], single_response=True)
-    response('Ate logo!', ['tchau', 'ate','abraco','vemos','xau','falou','flw'],single_response=True)
+    response('Ate logo!', ['sair','quit','exit','Sair','tchau', 'ate','abraco','vemos','xau','falou','flw'],single_response=True)
     response('Estou bem e voce?', ['como', 'tudo', 'voce', 'esta','tudo bem','Tudo bem','bem','Bem'], required_words=['tudo', 'bem'])
     response('Por nada!', ['obrigado', 'muito obrigado','grato','vlw','valeu','tmj'], single_response=True)
     response('Otimo! Vamos la! O que posso ajudar?', ['estou', 'bem'], required_words=['estou'])
@@ -95,10 +95,10 @@ def check_all_messages(message):
 # Usado para obter a resposta
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
-    if split_message == "sair" or "Sair" or "quit" or "Quit" or "exit":
-        print('Obrigado por usar o JiraBot, volte sempre.')
-        exit()
     response = check_all_messages(split_message)
+    if check_all_messages(split_message) == "Ate logo!":
+        print("Obrigado por utilizar o JiraBot. ", check_all_messages(split_message))
+        exit()
     with io.open("perguntas_novas.txt", "a", encoding="utf-8") as f: #cria o arquivo para armazenar as pergunta feitas pelo usuário
         f.write(user_input + "\n")  # adiciona uma nova linha depois de cada entrada
     return response
@@ -106,4 +106,5 @@ def get_response(user_input):
 # Testando o sistema de resposta
 while True:
     print('\033[1;34mJiraBot: \033[0;0m' + get_response(input( "\033[1;31m" + username + "\033[0;0m")))
+
 
