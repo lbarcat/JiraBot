@@ -10,8 +10,9 @@ import os
 import pwd
 import io
 
-username = pwd.getpwuid(os.getuid()).pw_name.capitalize() + ": "
-print("Ola \033[1;31m", username, "\033[0;0m!", "Seja bem vindo ao JiraBot!")
+username1 = input(str("Olá, como devo lhe chamar ? \n > "))
+username = username1 +": "
+print("Ola \033[1;31m", username1, "\033[0;0m!", "Seja bem vindo ao JiraBot!\nFaça uma pergunta para iniciar.")
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
@@ -47,12 +48,13 @@ def check_all_messages(message):
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
     #respostas -------------------------------------------------------------------------------------------------------
-    response('Ola! Bem Vindo ao JiraBot', ['ola', 'Oi', 'Oii', 'oi', 'hey', 'Oie'], single_response=True)
-    response('Ate logo!', ['tchau', 'ate'], single_response=True)
-    response('Estou bem e voce?', ['como', 'tudo', 'voce', 'esta'], required_words=['tudo', 'bem'])
-    response('Por nada!', ['obrigado', 'muito obrigado'], single_response=True)
+    response('Ola! Bem Vindo ao JiraBot', ['ola', 'Oi', 'Oii', 'oi', 'hey', 'Oie','Bom', 'Boa', 'bom', 'boa', 'Dia','dia','Tarde','tarde','noite','Noite'], single_response=True)
+    response('Ate logo!', ['tchau', 'ate','abraco','vemos','xau','falou','flw'],single_response=True)
+    response('Estou bem e voce?', ['como', 'tudo', 'voce', 'esta','tudo bem','Tudo bem','bem','Bem'], required_words=['tudo', 'bem'])
+    response('Por nada!', ['obrigado', 'muito obrigado','grato','vlw','valeu','tmj'], single_response=True)
     response('Otimo! Vamos la! O que posso ajudar?', ['estou', 'bem'], required_words=['estou'])
-    response('Posso sim! Insira a pergunta que eu vou te ajudar!', ['pode', 'ajudar', 'duvida'], required_words=['pode','ajudar'])
+    #response('Sinto muito, espero que melhore logo! De qualquer forma, vamos la! O que posso ajudar?', ['estou', 'mal','triste','doente'], required_words=[''])
+    response('Posso sim! Insira a pergunta que eu vou te ajudar!', ['pode', 'ajudar','me'], required_words=['pode','ajudar'])
     response('Tudo bem! Insira a pergunta que eu vou armazena-la e aprende-la!', ['tentar', 'novamente', 'perguntar'], required_words=['tentar','perguntar'])
 
     # Respostas mais longas
@@ -93,6 +95,9 @@ def check_all_messages(message):
 # Usado para obter a resposta
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
+    if split_message == "sair" or "Sair" or "quit" or "Quit" or "exit":
+        print('Obrigado por usar o JiraBot, volte sempre.')
+        exit()
     response = check_all_messages(split_message)
     with io.open("perguntas_novas.txt", "a", encoding="utf-8") as f: #cria o arquivo para armazenar as pergunta feitas pelo usuário
         f.write(user_input + "\n")  # adiciona uma nova linha depois de cada entrada
@@ -101,3 +106,4 @@ def get_response(user_input):
 # Testando o sistema de resposta
 while True:
     print('\033[1;34mJiraBot: \033[0;0m' + get_response(input( "\033[1;31m" + username + "\033[0;0m")))
+
