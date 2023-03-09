@@ -10,8 +10,10 @@ import os
 import pwd
 import io
 
-username = pwd.getpwuid(os.getuid()).pw_name.capitalize() + ": "
-print("Ola \033[1;31m", username, "\033[0;0m!", "Seja bem vindo ao JiraBot!")
+username1 = input(str("Olá, como devo lhe chamar ? \n > "))
+username = username1 +": "
+print("Ola \033[1;31m", username1, "\033[0;0m!", "Seja bem vindo ao JiraBot!\nFaça uma pergunta para iniciar.")
+
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
@@ -47,8 +49,8 @@ def check_all_messages(message):
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
     #respostas -------------------------------------------------------------------------------------------------------
-    response('Ola! Bem Vindo ao JiraBot', ['ola', 'Oi', 'Oii', 'oi', 'hey', 'Oie'], single_response=True)
-    response('Ate logo!', ['tchau', 'ate'], single_response=True)
+    response('Ola! Bem Vindo ao JiraBot', ['ola', 'Oi', 'Oii', 'oi', 'hey', 'Oie','Bom', 'Boa', 'bom', 'boa', 'Dia','dia','Tarde','tarde','noite','Noite'], single_response=True)
+    response('Ate logo!', ['sair','quit','exit','Sair','tchau', 'ate','abraco','vemos','xau','falou','flw'], single_response=True)
     response('Estou bem e voce?', ['como', 'tudo', 'voce', 'esta'], required_words=['tudo', 'bem'])
     response('Por nada!', ['obrigado', 'muito obrigado'], single_response=True)
     response('Otimo! Vamos la! O que posso ajudar?', ['estou', 'bem'], required_words=['estou'])
@@ -96,6 +98,12 @@ def check_all_messages(message):
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
     response = check_all_messages(split_message)
+
+    ### Adicionando condição para que se a mensagem for respondida com até logo ele finalize o programa
+    if check_all_messages(split_message) == "Ate logo!":
+        print("Obrigado por utilizar o JiraBot.", check_all_messages(split_message))
+        exit()
+    
     with io.open("perguntas_novas.txt", "a", encoding="utf-8") as f: #cria o arquivo para armazenar as pergunta feitas pelo usuário
         f.write(user_input + "\n")  # adiciona uma nova linha depois de cada entrada
     return response
