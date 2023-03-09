@@ -77,7 +77,9 @@ def check_all_messages(message):
     response(long.R_INTROJIRA19, ['importar', 'dados', 'para', 'jira'], required_words=['importar', 'dados'])
     response(long.R_INTROJIRA20, ['exportar', 'dados', 'para', 'jira'], required_words=['exportar', 'dados'])
     response(long.R_INTROJIRA21, ['api', 'jira', 'tem'], required_words=['api', 'jira'])
-
+    response(long.R_INTROJIRA22, ['personalizar', 'jira', 'equipe'], required_words=['personalizar', 'jira'])
+    response(long.R_INTROJIRA23, ['criar', 'projetos', 'jira'], required_words=['criar', 'projetos'])
+    response(long.R_INTROJIRA24, ['criar', 'tarefas', 'jira'], required_words=['criar', 'tarefas'])
 
     #Local para perguntas mais longas desenvolvidas por pessoas
     #-

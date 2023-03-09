@@ -76,6 +76,25 @@ R_INTROJIRA20 = "A exportação de dados do Jira Software pode ser feita usando 
 
 R_INTROJIRA21 = "Sim, o Jira Software possui uma API RESTful que permite aos desenvolvedores criar aplicativos personalizados para integrar o Jira com outros sistemas. A API também pode ser usada para automatizar tarefas no Jira, como criar e atualizar tarefas, adicionar comentários e alterar o status de um ticket."
 
+R_INTROJIRA22 = """1. Crie um projeto específico para sua equipe: O primeiro passo é criar um projeto específico para sua equipe, que permitirá a vocês organizar e gerenciar todos os seus trabalhos de forma mais eficiente.
+                   2. Configure as opções de fluxo de trabalho: O Jira Software oferece várias opções de fluxo de trabalho que você pode configurar para atender às necessidades da sua equipe. Isso inclui definir etapas, prioridades, prazos e outras configurações relacionadas ao processo de trabalho.
+                   3. Adicione campos personalizados: Você também pode adicionar campos personalizados ao seu projeto no Jira Software para armazenar informações específicas da sua equipe ou projeto. Isso permitirá que você tenha um maior controle sobre o andamento do seu trabalho.
+                   4. Crie quadros Kanban: Os quadros Kanban são ótimas ferramentas para visualizar o progresso dos projetos da sua equipe e gerenciar melhor os recursos disponíveis. Você pode criar quadros Kanban no Jira Software com base nas necessidades da sua equipe e usá-los para acompanhar o progresso dos seus projetos."""
+
+R_INTROJIRA23 = """1. Acesse o site do Jira Software e faça o login na sua conta.
+                   2. Clique no botão "Criar projeto" na barra de navegação superior.
+                   3. Selecione o tipo de projeto que deseja criar (por exemplo, Software, Serviço, etc.).
+                   4. Insira um nome para o seu projeto e uma descrição opcional.
+                   5. Selecione um modelo de projeto para começar (por exemplo, Scrum, Kanban, etc.).
+                   6. Escolha as configurações de acesso para o seu projeto (público ou privado).
+                   7. Clique no botão Criar."""
+
+R_INTROJIRA24 = """1. Abra o Jira Software e faça login com suas credenciais.
+                   2. Clique em "Criar" na barra de navegação superior.
+                   3. Selecione a opção "Tarefa" para criar uma tarefa.
+                   4. Insira as informações necessárias, como título, descrição, projeto e prioridade da tarefa.
+                   5. Clique em "Criar" para salvar a tarefa criada no Jira Software."""
+
 def unknown():
     response = ["Eu nao entendi, poderia tentar novamente?",
                 "Hum, nao encontrei essa informacao!",

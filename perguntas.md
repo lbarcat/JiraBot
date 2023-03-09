@@ -22,9 +22,9 @@
 - 19 - Como posso importar dados para o Jira Software? ✅
 - 20 - Como faço para exportar dados do Jira Software? ✅
 - 21 - O Jira Software tem uma API? ✅
-- 22 - Como personalizar o Jira Software para minha equipe?
-- 23 - Como criar projetos no Jira Software?
-- 24 - Como criar tarefas no Jira Software?
+- 22 - Como personalizar o Jira Software para minha equipe? ✅
+- 23 - Como criar projetos no Jira Software? ✅
+- 24 - Como criar tarefas no Jira Software? ✅
 - 25 - Como atribuir tarefas no Jira Software?
 - 26 - Como definir prazos no Jira Software?
 - 27 - Como rastrear o progresso do projeto no Jira Software?
