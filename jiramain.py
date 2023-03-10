@@ -6,8 +6,8 @@ A função "get_response" é usada para obter uma resposta do chatbot e chama am
 
 import re
 import long_responses as long
-import os
-import pwd
+import os #inativos
+import pwd #inativos
 import io
 
 username1 = input(str("Olá, como devo lhe chamar ? \n > "))
@@ -82,6 +82,12 @@ def check_all_messages(message):
     response(long.R_INTROJIRA22, ['personalizar', 'jira', 'equipe'], required_words=['personalizar', 'jira'])
     response(long.R_INTROJIRA23, ['criar', 'projetos', 'jira'], required_words=['criar', 'projetos'])
     response(long.R_INTROJIRA24, ['criar', 'tarefas', 'jira'], required_words=['criar', 'tarefas'])
+    response(long.R_INTROJIRA25, ['atribuir', 'tarefas', 'jira'], required_words=['atribuir', 'tarefas'])
+    response(long.R_INTROJIRA26, ['definir', 'prazos', 'jira'], required_words=['definir', 'prazos'])
+    response(long.R_INTROJIRA27, ['rastrear', 'progresso', 'projeto', 'jira'], required_words=['progresso', 'projeto'])
+    response(long.R_INTROJIRA28, ['gerenciar', 'equipes', 'jira'], required_words=['gerenciar', 'equipes'])
+    response(long.R_INTROJIRA29, ['definir', 'papeis', 'permissoes', 'jira'], required_words=['definir', 'papeis', 'permissoes'])
+    response(long.R_INTROJIRA30, ['criar', 'workflows', 'jira'], required_words=['criar', 'workflows'])
 
     #Local para perguntas mais longas desenvolvidas por pessoas
     #-

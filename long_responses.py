@@ -95,6 +95,28 @@ R_INTROJIRA24 = """1. Abra o Jira Software e faça login com suas credenciais.
                    4. Insira as informações necessárias, como título, descrição, projeto e prioridade da tarefa.
                    5. Clique em "Criar" para salvar a tarefa criada no Jira Software."""
 
+R_INTROJIRA25 = "Para atribuir tarefas no Jira Software, primeiro você precisa criar uma tarefa. Para fazer isso, vá para a guia Criar na parte superior da página inicial do Jira. Selecione a opção Tarefa e preencha os detalhes da tarefa. Quando terminar, clique em Criar. Depois de criar a tarefa, você pode atribuí-la a um usuário específico. Para fazer isso, clique no botão de edição na parte superior direita da tela. Na seção Atribuir para, selecione o usuário que deseja atribuir a tarefa e clique em Atualizar. A tarefa agora está atribuída ao usuário selecionado."
+
+R_INTROJIRA26 = "Para definir prazos no Jira Software, você pode usar a função de planejamento de projetos. Esta função permite que você crie e gerencie tarefas, atribua datas de início e término para cada tarefa e visualize o progresso do projeto. Você também pode adicionar lembretes para que os membros da equipe sejam notificados quando um prazo estiver próximo."
+
+R_INTROJIRA27 = "Para rastrear o progresso do projeto no Jira Software, você pode usar os recursos de relatórios e painéis. Os relatórios permitem que você visualize o progresso do projeto, enquanto os painéis permitem que você visualize as informações em tempo real. Você também pode usar o recurso de sprint para verificar o progresso de cada sprint individualmente. Além disso, é possível configurar alertas para que você receba notificações quando houver mudanças significativas no andamento do projeto."
+
+R_INTROJIRA28 = """1. Crie um projeto Jira para o seu time: O primeiro passo para gerenciar equipes no Jira Software é criar um projeto Jira para o seu time. Isso permitirá que você organize e acompanhe todas as tarefas, bugs, problemas e outros itens relacionados à equipe.
+                   2. Crie quadros de trabalho: Os quadros de trabalho permitem que você visualize e organize os itens que precisam ser concluídos pelo seu time. Você pode criar quadros de trabalho personalizados com várias colunas, como "Em andamento", "Concluído" e "Bloqueado".
+                   3. Estabeleça metas: Estabelecer metas para o seu time é uma ótima maneira de motivá-los a alcançar objetivos específicos. Você pode usar o Jira Software para definir metas claras e mensuráveis ​​para ajudar a equipe a alcançar os resultados desejados.
+                   4. Gerencie as tarefas: O Jira Software permite que você gerencie as tarefas da sua equipe de forma fácil e intuitiva. Você pode criar tarefas, atribuí-las a membros específicos da equipe, definir prioridades e monitorar o progresso dessas tarefas em tempo real.
+                   5. Use relatórios: O Jira Software oferece uma variedade de relatórios que permitem que você visualize facilmente o progresso do seu time em relação às metas estabelecidas. Esses relatórios fornecem informações valiosas sobre quais áreas precisam melhorias e quais estão indo bem."""
+
+R_INTROJIRA29 = "No Jira Software, os papéis e permissões são definidos usando o Gerenciador de Permissões. O Gerenciador de Permissões permite que você crie grupos de usuários e atribua a eles diferentes níveis de acesso ao Jira. Por exemplo, você pode definir um grupo como Administrador Global, que terá acesso total a todos os recursos do Jira, ou um grupo como Usuário Básico, que terá apenas acesso limitado às tarefas. Você também pode criar papéis personalizados para atribuir permissões específicas para determinados projetos ou tarefas."
+
+R_INTROJIRA30 = """Para criar um workflow no Jira Software, você precisa seguir os seguintes passos: 
+                   1. Abra o Jira e vá para a página de configurações. 
+                   2. Selecione o menu "Workflows" na barra lateral esquerda. 
+                   3. Clique no botão "Criar workflow" na parte superior da página. 
+                   4. Insira um nome para o seu workflow e clique em "Criar". 
+                   5. Adicione etapas, transições e regras ao seu workflow usando os menus suspensos à direita da tela. 
+                   6. Clique em "Salvar" quando terminar de configurar o seu workflow."""
+
 def unknown():
     response = ["Eu nao entendi, poderia tentar novamente?",
                 "Hum, nao encontrei essa informacao!",

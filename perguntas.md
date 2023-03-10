@@ -25,12 +25,12 @@
 - 22 - Como personalizar o Jira Software para minha equipe? ✅
 - 23 - Como criar projetos no Jira Software? ✅
 - 24 - Como criar tarefas no Jira Software? ✅
-- 25 - Como atribuir tarefas no Jira Software?
-- 26 - Como definir prazos no Jira Software?
-- 27 - Como rastrear o progresso do projeto no Jira Software?
-- 28 - Como gerenciar equipes no Jira Software?
-- 29 - Como definir papéis e permissões no Jira Software?
-- 30 - Como criar workflows no Jira Software?
+- 25 - Como atribuir tarefas no Jira Software? ✅
+- 26 - Como definir prazos no Jira Software? ✅
+- 27 - Como rastrear o progresso do projeto no Jira Software? ✅
+- 28 - Como gerenciar equipes no Jira Software? ✅
+- 29 - Como definir papéis e permissões no Jira Software? ✅
+- 30 - Como criar workflows no Jira Software? ✅
 - 31 - Como personalizar workflows no Jira Software?
 - 32 - Como configurar fluxos de trabalho no Jira Software?
 - 33 - Como configurar campos personalizados no Jira Software?
