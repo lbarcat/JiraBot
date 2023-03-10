@@ -6,8 +6,8 @@ A função "get_response" é usada para obter uma resposta do chatbot e chama am
 
 import re
 import long_responses as long
-import os #inativos
-import pwd #inativos
+#import os #inativos
+#import pwd #inativos
 import io
 
 username1 = input(str("Olá, como devo lhe chamar ? \n > "))
