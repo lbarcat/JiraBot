@@ -38,56 +38,56 @@
 - 35 - Como configurar notificações no Jira Software? ✅
 - 36 - Como definir prioridades no Jira Software? ✅
 - 37 - Como gerenciar sprints no Jira Software? ✅
-- 38 - Como configurar relatórios no Jira Software?
-- 39 - Como usar painéis no Jira Software?
-- 40 - Como usar filtros no Jira Software?
-- 41 - Como usar o painel de controle do Jira Software?
-- 42 - Como configurar integrações com outras ferramentas no Jira Software?
-- 43 - Como usar o Jira Software com o GitHub?
-- 44 - Como usar o Jira Software com o Bitbucket?
-- 45 - Como usar o Jira Software com o Confluence?
-- 46 - Como usar o Jira Software com o Slack?
-- 47 - Como usar o Jira Software com o Trello?
-- 48 - Como usar o Jira Software com o Google Sheets?
-- 49 - Como usar o Jira Software com o Salesforce?
-- 50 - Como usar o Jira Software com o Zendesk?
-- 51 - Como usar o Jira Software com o Microsoft Teams?
-- 52 - Como usar o Jira Software com o Power BI?
-- 53 - Como usar o Jira Software com o Zapier?
-- 54 - Como usar o Jira Software com o Microsoft Project?
-- 55 - Como usar o Jira Software com o Asana?
-- 56 - Como usar o Jira Software com o Monday?
-- 57 - Como usar o Jira Software com o GitLab?
-- 58 - Como usar o Jira Software com o Jenkins?
-- 59 - Como usar o Jira Software com o Bamboo?
-- 60 - Como usar o Jira Software com o Docker?
-- 61 - Como usar o Jira Software com o Kubernetes?
-- 62 - Como usar o Jira Software com o AWS?
-- 63 - Como usar o Jira Software com o Azure DevOps?
-- 64 - Como usar o Jira Software com o CircleCI?
-- 65 - Como usar o Jira Software com o Travis CI?
-- 66 - Como usar o Jira Software com o SonarQube?
-- 67 - Como usar o Jira Software com o New Relic?
-- 68 - Como usar o Jira Software com o Datadog?
-- 69 - Como usar o Jira Software com o Splunk?
-- 70 - Como usar o Jira Software com o Dynatrace?
-- 71 - Como usar o Jira Software com o PagerDuty?
-- 72 - Como usar o Jira Software com o ServiceNow?
-- 73 - Como usar o Jira Software com o JFrog?
-- 74 - Como usar o Jira Software com o Ansible?
-- 75 - Como usar o Jira Software com o Terraform?
-- 76 - Como usar o Jira Software com o Puppet?
-- 77 - Como usar o Jira Software com o Chef?
-- 78 - Como usar o Jira Software com o Nagios?
-- 79 - Como usar o Jira Software com o Prometheus?
-- 80 - Como usar o Jira Software com o Grafana?
-- 81 - Como usar o Jira Software com o ELK Stack?
-- 82 - Como usar o Jira Software com o Apache Kafka?
-- 83 - Como usar o Jira Software com o RabbitMQ?
-- 84 - Como usar o Jira Software com o Redis?
-- 85 - Como usar o Jira Software com o MongoDB?
-- 86 - Como usar o Jira Software com o PostgreSQL?
-- 87 - Como usar o Jira Software com o MySQL?
-- 88 - Como usar o Jira Software com o Oracle?
-- 89 - Como usar o Jira Software com o SQL Server?
-- 90 - Como usar o Jira Software com o Salesforce Marketing Cloud?
+- 38 - Como configurar relatórios no Jira Software? ✅
+- 39 - Como usar painéis no Jira Software? ✅
+- 40 - Como usar filtros no Jira Software? ✅
+- 41 - Como usar o painel de controle do Jira Software? ✅
+- 42 - Como configurar integrações com outras ferramentas no Jira Software? ✅
+- 43 - Como usar o Jira Software com o GitHub? ✅
+- 44 - Como usar o Jira Software com o Bitbucket? ✅
+- 45 - Como usar o Jira Software com o Confluence? ✅
+- 46 - Como usar o Jira Software com o Slack? ✅
+- 47 - Como usar o Jira Software com o Trello? ✅
+- 48 - Como usar o Jira Software com o Google Sheets? ✅
+- 49 - Como usar o Jira Software com o Salesforce? ✅
+- 50 - Como usar o Jira Software com o Zendesk? ✅
+- 51 - Como usar o Jira Software com o Microsoft Teams? ✅
+- 52 - Como usar o Jira Software com o Power BI? ✅
+- 53 - Como usar o Jira Software com o Zapier? ✅
+- 54 - Como usar o Jira Software com o Microsoft Project? ✅
+- 55 - Como usar o Jira Software com o Asana? ✅
+- 56 - Como usar o Jira Software com o Monday? ✅
+- 57 - Como usar o Jira Software com o GitLab? ✅
+- 58 - Como usar o Jira Software com o Jenkins? ✅
+- 59 - Como usar o Jira Software com o Bamboo? ✅
+- 60 - Como usar o Jira Software com o Docker? ✅
+- 61 - Como usar o Jira Software com o Kubernetes? ✅
+- 62 - Como usar o Jira Software com o AWS? ✅
+- 63 - Como usar o Jira Software com o Azure DevOps? ✅
+- 64 - Como usar o Jira Software com o CircleCI? ✅
+- 65 - Como usar o Jira Software com o Travis CI? ✅
+- 66 - Como usar o Jira Software com o SonarQube? ✅
+- 67 - Como usar o Jira Software com o New Relic? ✅
+- 68 - Como usar o Jira Software com o Datadog? ✅
+- 69 - Como usar o Jira Software com o Splunk? ✅
+- 70 - Como usar o Jira Software com o Dynatrace? ✅
+- 71 - Como usar o Jira Software com o PagerDuty? ✅
+- 72 - Como usar o Jira Software com o ServiceNow? ✅
+- 73 - Como usar o Jira Software com o JFrog? ✅
+- 74 - Como usar o Jira Software com o Ansible? ✅
+- 75 - Como usar o Jira Software com o Terraform? ✅
+- 76 - Como usar o Jira Software com o Puppet? ✅
+- 77 - Como usar o Jira Software com o Chef? ✅
+- 78 - Como usar o Jira Software com o Nagios? ✅
+- 79 - Como usar o Jira Software com o Prometheus? ✅
+- 80 - Como usar o Jira Software com o Grafana? ✅
+- 81 - Como usar o Jira Software com o ELK Stack? ✅
+- 82 - Como usar o Jira Software com o Apache Kafka? ✅
+- 83 - Como usar o Jira Software com o RabbitMQ? ✅
+- 84 - Como usar o Jira Software com o Redis? ✅
+- 85 - Como usar o Jira Software com o MongoDB? ✅
+- 86 - Como usar o Jira Software com o PostgreSQL? ✅
+- 87 - Como usar o Jira Software com o MySQL? ✅
+- 88 - Como usar o Jira Software com o Oracle? ✅
+- 89 - Como usar o Jira Software com o SQL Server? ✅
+- 90 - Como usar o Jira Software com o Salesforce Marketing Cloud? ✅
