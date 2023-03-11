@@ -11,14 +11,14 @@ Este projeto é Open Source e qualquer pessoa pode contribuir com idéias, pergu
 
 ## 🚀 Começando
 
-Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot apos o **"Nome-usuário"**.
+Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot após definir seu nome.
 
 ### 📋 Pré-requisitos
 
 Para que você possa rodar o projeto você irá precisar:
 
 ```
-python3 
+python3
 ```
 
 ## 🛠️ Desenvolvido com
@@ -28,6 +28,7 @@ Este projeto está sendo desenvolvido com:
 - Python 3.10.6
 - ChatGPT API
 - VS Code 
+- Tkinter (em testes)
 
 ## 🖇️ Colaborando
 
@@ -50,6 +51,7 @@ Para colaborar siga os seguintes passos:
 ## ✒️ Autores
 
 * **Lucas Barcat** - *Graduando em Engenharia de Computação* - [lbarcat](https://github.com/lbarcat)
+* **Guilherme Neves** - *Graduando em Engenharia de Computação* - [NEVESGF](https://github.com/NEVESGF)
 
 ---
 ⌨️ com ❤️ por [Lucas Barcat](https://gist.github.com/lbarcat) 😊
