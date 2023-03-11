@@ -8,6 +8,8 @@ Este projeto é Open Source e qualquer pessoa pode contribuir com idéias, pergu
 
 Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot após definir seu nome.
 
+Para realizar a conversa ou pergunta evite o uso de acentos e ç, nesta primeira versão. 
+
 ### 📋 Pré-requisitos
 
 Para que você possa rodar o projeto você irá precisar:
