@@ -1,9 +1,4 @@
-<img src="content/img/jirabotlogo.png" width="300" align="center"/></a> 
-
-
-# JiraBot
-
-Projeto de chat bot para ajudar os usuários do Jira com perguntas frequentes de como utilizar a ferramenta. Inicialmente com um banco de dados simples na primeira versão, com possibilidade de aprimorar respostas para perguntas mais complexas e soluções de problemas.
+<img src="content/img/capajirabot.png" width="1000" align="center"/></a> 
 
 O bot trabalha com um banco de dados interno onde é realizado as consultas. Ao executar o programa todas as perguntas são salvas no arquivo "perguntas_novas.txt". Caso sua pergunta não esteja no banco de dados, por favor compartilhe o arquivo em seguida para que possamos atualizar o banco de dados.
 
