@@ -31,13 +31,13 @@
 - 28 - Como gerenciar equipes no Jira Software? ✅
 - 29 - Como definir papéis e permissões no Jira Software? ✅
 - 30 - Como criar workflows no Jira Software? ✅
-- 31 - Como personalizar workflows no Jira Software?
-- 32 - Como configurar fluxos de trabalho no Jira Software?
-- 33 - Como configurar campos personalizados no Jira Software?
-- 34 - Como configurar telas no Jira Software?
-- 35 - Como configurar notificações no Jira Software?
-- 36 - Como definir prioridades no Jira Software?
-- 37 - Como gerenciar sprints no Jira Software?
+- 31 - Como personalizar workflows no Jira Software? ✅
+- 32 - Como configurar fluxos de trabalho no Jira Software? ✅
+- 33 - Como configurar campos personalizados no Jira Software? ✅
+- 34 - Como configurar telas no Jira Software? ✅
+- 35 - Como configurar notificações no Jira Software? ✅
+- 36 - Como definir prioridades no Jira Software? ✅
+- 37 - Como gerenciar sprints no Jira Software? ✅
 - 38 - Como configurar relatórios no Jira Software?
 - 39 - Como usar painéis no Jira Software?
 - 40 - Como usar filtros no Jira Software?
@@ -56,7 +56,7 @@
 - 53 - Como usar o Jira Software com o Zapier?
 - 54 - Como usar o Jira Software com o Microsoft Project?
 - 55 - Como usar o Jira Software com o Asana?
-- 56 - Como usar o Jira Software com o Monday.com?
+- 56 - Como usar o Jira Software com o Monday?
 - 57 - Como usar o Jira Software com o GitLab?
 - 58 - Como usar o Jira Software com o Jenkins?
 - 59 - Como usar o Jira Software com o Bamboo?

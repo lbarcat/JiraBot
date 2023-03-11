@@ -117,6 +117,105 @@ R_INTROJIRA30 = """Para criar um workflow no Jira Software, você precisa seguir
                    5. Adicione etapas, transições e regras ao seu workflow usando os menus suspensos à direita da tela. 
                    6. Clique em "Salvar" quando terminar de configurar o seu workflow."""
 
+R_INTROJIRA31 = "Para personalizar os workflows no Jira Software, você precisa acessar o menu Configurações e Fluxos de Trabalho. Aqui, você pode criar, editar e excluir fluxos de trabalho para atender às necessidades do seu projeto."
+
+R_INTROJIRA32 = """1. Acesse o menu Configurações no Jira Software.
+                   2. Clique em Fluxos de Trabalho na barra lateral esquerda.
+                   3. Clique no botão Criar fluxo de trabalho para começar a criar um novo fluxo de trabalho.
+                   4. Insira o nome do fluxo de trabalho e selecione o tipo de projeto para qual ele será aplicado.
+                   5. Adicione os estados e transições necessários para o fluxo de trabalho, clicando no botão Adicionar Estado ou Adicionar Transição, conforme necessário.
+                   6. Selecione as permissões necessárias para cada estado e transição, definindo quem pode executar as tarefas associadas a cada um dos elementos do fluxo de trabalho.
+                   7. Clique em Salvar para salvar as alterações feitas no fluxo de trabalho e ativá-lo para uso imediato."""
+
+R_INTROJIRA33 = """1. Abra o Jira Software e vá para a página de configurações.
+                   2. Selecione o item "Campos" na barra lateral esquerda.
+                   3. Clique no botão Criar campo personalizado.
+                   4. Selecione o tipo de campo que você deseja criar (por exemplo, texto, número, data, etc.).
+                   5. Insira um nome para o campo e uma descrição opcional.
+                   6. Selecione as opções de configuração necessárias para o seu campo (por exemplo, obrigatório, visível a todos os usuários, etc.).
+                   7. Clique em Salvar para criar o campo personalizado."""
+
+R_INTROJIRA34 = """1. Abra o Jira Software e vá para Configurações > Gerenciar > Telas.
+                   2. Clique em "Criar tela" para criar uma nova tela.
+                   3. Insira um nome para a tela e selecione os campos que você deseja incluir na tela.
+                   4. Clique em Salvar para salvar as alterações.
+                   5. Para editar uma tela existente, clique no ícone de edição ao lado da tela desejada e faça as alterações necessárias.
+                   6. Quando terminar, clique em Salvar para salvar as alterações feitas na tela."""
+
+R_INTROJIRA35 = """1. Acesse o painel de administração do Jira Software e clique em Notificações.
+                   2. Selecione a opção de notificação desejada (por exemplo, notificações por e-mail).
+                   3. Configure os destinatários das notificações (por exemplo, usuários específicos ou grupos de usuários).
+                   4. Selecione as ações que deseja que gerem notificações (por exemplo, comentar, atribuir tarefas, alterar status).
+                   5. Salve as alterações para ativar as notificações no Jira Software."""
+
+R_INTROJIRA36 = """1. Crie uma lista de prioridades. Avalie os requisitos e crie uma lista de prioridades com base nos objetivos do projeto.
+                   2. Estabeleça um critério de priorização. Defina um critério para classificar as tarefas em ordem de prioridade, como importância, urgência ou impacto no projeto.
+                   3. Atribua as tarefas às pessoas certas. Atribua as tarefas às pessoas certas para garantir que elas sejam concluídas dentro do prazo estipulado.
+                   4. Use a funcionalidade Priorização no Jira Software para definir a ordem das tarefas e gerenciar o fluxo de trabalho do projeto. A funcionalidade Priorização permite que você classifique as tarefas em ordem de prioridade, atribuindo pontuações a cada uma delas e definindo quais são mais importantes para o sucesso do projeto."""
+
+R_INTROJIRA37 = """1. Crie um novo projeto no Jira Software.
+                   2. Configure o projeto para usar o Quadro de Sprint.
+                   3. Crie uma equipe de desenvolvimento para trabalhar no projeto.
+                   4. Crie um sprint e adicione tarefas a ele.
+                   5. Assigne as tarefas aos membros da equipe de desenvolvimento.
+                   6. Acompanhe o progresso do sprint monitorando os indicadores do quadro de sprint, como horas trabalhadas, tarefas concluídas e taxa de conclusão estimada.
+                   7. Replaneje o sprint se necessário, adicionando mais tarefas, alterando prioridades e atribuindo novas pessoas às tarefas existentes.
+                   8. Conclua o sprint quando todas as tarefas estiverem concluídas e faça uma retrospectiva para avaliar o que foi bem-sucedido e onde houve falhas durante o processo de desenvolvimento do produto."""
+
+R_INTROJIRA38 = ""
+R_INTROJIRA39 = ""
+R_INTROJIRA40 = ""
+R_INTROJIRA41 = ""
+R_INTROJIRA42 = ""
+R_INTROJIRA43 = ""
+R_INTROJIRA44 = ""
+R_INTROJIRA45 = ""
+R_INTROJIRA46 = ""
+R_INTROJIRA47 = ""
+R_INTROJIRA48 = ""
+R_INTROJIRA49 = ""
+R_INTROJIRA50 = ""
+R_INTROJIRA51 = ""
+R_INTROJIRA52 = ""
+R_INTROJIRA53 = ""
+R_INTROJIRA54 = ""
+R_INTROJIRA55 = ""
+R_INTROJIRA56 = ""
+R_INTROJIRA57 = ""
+R_INTROJIRA58 = ""
+R_INTROJIRA59 = ""
+R_INTROJIRA60 = ""
+R_INTROJIRA61 = ""
+R_INTROJIRA62 = ""
+R_INTROJIRA63 = ""
+R_INTROJIRA64 = ""
+R_INTROJIRA65 = ""
+R_INTROJIRA66 = ""
+R_INTROJIRA67 = ""
+R_INTROJIRA68 = ""
+R_INTROJIRA69 = ""
+R_INTROJIRA70 = ""
+R_INTROJIRA71 = ""
+R_INTROJIRA72 = ""
+R_INTROJIRA73 = ""
+R_INTROJIRA74 = ""
+R_INTROJIRA75 = ""
+R_INTROJIRA76 = ""
+R_INTROJIRA77 = ""
+R_INTROJIRA78 = ""
+R_INTROJIRA79 = ""
+R_INTROJIRA80 = ""
+R_INTROJIRA81 = ""
+R_INTROJIRA82 = ""
+R_INTROJIRA83 = ""
+R_INTROJIRA84 = ""
+R_INTROJIRA85 = ""
+R_INTROJIRA86 = ""
+R_INTROJIRA87 = ""
+R_INTROJIRA88 = ""
+R_INTROJIRA89 = ""
+R_INTROJIRA90 = ""
+
 def unknown():
     response = ["Eu nao entendi, poderia tentar novamente?",
                 "Hum, nao encontrei essa informacao!",
