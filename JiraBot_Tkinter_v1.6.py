@@ -28,7 +28,7 @@ class Application():
         
 
     def janela_principal(self):
-        self.root.title("JiraBot - Seu Assistente de Jira - v1.5")
+        self.root.title("JiraBot - Seu Assistente de Jira - v1.6")
         self.root.configure(background="#e4e4e4")
         self.root.geometry("900x500")
         self.root.resizable(False,False)
