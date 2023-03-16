@@ -10,6 +10,11 @@ import long_responses as long
 #import pwd #inativos
 import io
 
+#username1 = input(str("Olá, como devo lhe chamar ? \n > "))
+#username = username1 +": "
+#print("Ola \033[1;31m", username1, "\033[0;0m!", "Seja bem vindo ao JiraBot!\nFaça uma pergunta para iniciar.")
+
+
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
     has_required_words = True
@@ -159,8 +164,16 @@ def check_all_messages(message):
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
     response = check_all_messages(split_message)
- 
+
+    ### Adicionando condição para que se a mensagem for respondida com até logo ele finalize o programa
+    #if check_all_messages(split_message) == "Ate logo!":
+    #    print("Obrigado por utilizar o JiraBot.", check_all_messages(split_message))
+    #    exit()
+    
     with io.open("perguntas_novas.txt", "a", encoding="utf-8") as f: #cria o arquivo para armazenar as pergunta feitas pelo usuário
         f.write(user_input + "\n")  # adiciona uma nova linha depois de cada entrada
     return response
 
+# Testando o sistema de resposta
+#while True:
+    #print('\033[1;34mJiraBot: \033[0;0m' + get_response(input( "\033[1;31m" + username + "\033[0;0m")))
