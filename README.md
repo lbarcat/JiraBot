@@ -6,7 +6,9 @@ Este projeto é Open Source e qualquer pessoa pode contribuir com idéias, pergu
 
 ## 🚀 Começando
 
-Execute o arquivo **jiramain.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot após definir seu nome.
+ - Execute o arquivo **jiramain_terminal.py** em algum editor de código ou no próprio IDLE do Python. Em seguida basta iniciar a conversa com o bot após definir seu nome.
+
+ - Pode-se ainda utilizar o arquivo **JiraBot_Tkinter_v1.6** do qual inicia em sua máquina uma tela do tkinter com interface interativa com o usuário.
 
 Para realizar a conversa ou pergunta evite o uso de acentos e ç, nesta primeira versão. 
 
@@ -25,7 +27,7 @@ Este projeto está sendo desenvolvido com:
 - Python 3.10.6
 - ChatGPT API
 - VS Code 
-- Tkinter (em testes)
+- Tkinter
 
 ## 🖇️ Colaborando
 
