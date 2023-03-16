@@ -1,4 +1,4 @@
-<img src="content/img/capajirabot.png" width="1000" align="center"/></a> 
+<img src="content/img/capajirabot1.png" width="1000" align="center"/></a> 
 
 O bot trabalha com um banco de dados interno onde é realizado as consultas. Ao executar o programa todas as perguntas são salvas no arquivo "perguntas_novas.txt". Caso sua pergunta não esteja no banco de dados, por favor compartilhe o arquivo em seguida para que possamos atualizar o banco de dados.
 
